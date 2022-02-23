@@ -1,0 +1,29 @@
+
+.NewSkillForm {
+    width: 25vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1vmin solid teal;
+    border-radius: 2vmin;
+    margin-bottom: 2vmin;
+}
+
+.NewSkillForm label, button {
+    margin: 2vmin;
+}
+
+.NewSkillForm select {
+    width: 55%;
+    float: right;
+    margin-right: 2vmin;
+}
+
+.NewSkillForm select {
+    width: 55%;
+    float: right;
+    margin-right: 2vmin;
+}
+
+

@@ -1,6 +1,12 @@
+import "./SkillListItem.css"
 
-export default function SkillListItem() {
+export default function SkillListItem({ skill, index }) {
+    const {name, level} = skill;
+
     return (
-        <li>Skill List Item </li>
+        <div className="SkillListItem">
+            <li className="SkillListLi"> {name} </li>
+            <li className="SkillListLi">Level: {level}</li>
+        </div>
     )
 }
